@@ -1,0 +1,135 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "齐风杯",
+				"navigationBarBackgroundColor": "#FFF",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh":true
+			}
+		}
+	    ,{
+            "path" : "pages/information/information",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/person/person",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/sign_up/sign_up",
+            "style" : {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chat",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": true
+            }
+        }
+        ,{
+            "path" : "pages/chat_Inside/chat_Inside",
+            "style" : 
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/sign_info/sign_info",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/sign/sign",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/image_text/image_text",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/official_news/official_news",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "齐风杯",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#FF3F81",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/assets/Tabbar_icon_home_default.png",
+				"selectedIconPath": "static/assets/Tabbar_icon_home_selected.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/chat/chat",
+				"iconPath": "static/assets/Tabbar_icon_xiaoxi_default.png",
+				"selectedIconPath": "static/assets/Tabbar_icon_xiaoxi_selected.png",
+				"text": "消息"
+			}, {
+				"pagePath": "pages/person/person",
+				"iconPath": "static/assets/Tabbar_icon_gerenzhongxin_default.png",
+				"selectedIconPath": "static/assets/Tabbar_icon_gupiao_default.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

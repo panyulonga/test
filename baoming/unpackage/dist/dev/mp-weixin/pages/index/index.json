@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "齐风杯",
+  "navigationBarBackgroundColor": "#FFF",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/information/information",
+    "pages/person/person",
+    "pages/sign_up/sign_up",
+    "pages/chat/chat",
+    "pages/chat_Inside/chat_Inside",
+    "pages/sign_info/sign_info",
+    "pages/sign/sign",
+    "pages/image_text/image_text",
+    "pages/login/login",
+    "pages/test/test",
+    "pages/official_news/official_news"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "齐风杯",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#FF3F81",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/assets/Tabbar_icon_home_default.png",
+        "selectedIconPath": "static/assets/Tabbar_icon_home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/assets/Tabbar_icon_xiaoxi_default.png",
+        "selectedIconPath": "static/assets/Tabbar_icon_xiaoxi_selected.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "static/assets/Tabbar_icon_gerenzhongxin_default.png",
+        "selectedIconPath": "static/assets/Tabbar_icon_gupiao_default.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
