@@ -116,6 +116,7 @@
 			this.articleDetails();
 		},
 		onShow() {
+			console.log('验证git效果')
 			this.personInfo.token = uni.getStorageSync('names', 'data').token;
 			if(this.jumpInfo) {
 				uni.request({
